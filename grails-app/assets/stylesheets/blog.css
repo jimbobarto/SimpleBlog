@@ -1,0 +1,77 @@
+html {
+    font-family: "Andale Mono", Arial, sans-serif;
+}
+
+ul.menu-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ul.menu-list li {
+    float: left;
+}
+
+ul.menu-list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 16px;
+    text-decoration: none;
+    height: 30px;
+}
+
+ul.menu-list li a:hover {
+    background-color: #111111;
+}
+
+div.header {
+    color: white;
+    //padding: 16px;
+    background-color: #333333;
+    height: 30px;
+}
+
+div.menu-left {
+    float: left;
+}
+
+div.menu-right {
+    float: right;
+}
+
+div.header-image {
+    //background-image: url("../images/temp-background.jpg");
+    height: 100px;
+    width: 100%;
+    //height: auto;
+    background-repeat: no-repeat;
+}
+
+div.main-content {
+
+}
+
+div.blog-entries {
+    float: left;
+    width: 70%;
+}
+
+div.sidebar {
+    float: right;
+    width: 30%;
+}
+
+div.blog-entry {
+
+}
+
+div.blog-title {
+
+}
+
+div.blog-entry-content {
+
+}
